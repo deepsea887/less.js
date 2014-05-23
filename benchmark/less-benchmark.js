@@ -6,7 +6,7 @@ var less = require('../lib/less');
 var file = path.join(__dirname, 'benchmark.less');
 
 if (process.argv[2]) { file = path.join(process.cwd(), process.argv[2]) }
-
+//what is this below
 fs.readFile(file, 'utf8', function (e, data) {
     var tree, css, start, end, total;
 
